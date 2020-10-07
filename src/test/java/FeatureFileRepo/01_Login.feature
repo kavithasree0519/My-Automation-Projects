@@ -8,8 +8,8 @@ Feature: Login to makemytrip website
   Scenario: Log on to makemytrip from personal account
     Given user launches the makemytrip url in chrome browser
     And verify the home page loaded successfully.
-    When user opt to login to the site with email "kavithakuttan2014@gmail.com"
-    And continue with providing password "kavitha@15"
+    When user opt to login to the site with email "xxxxx@gmail.com"
+    And continue with providing password "xxxx"
     And Click Login button
     Then verified the user logged to the website.
    
